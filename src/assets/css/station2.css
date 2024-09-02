@@ -4,16 +4,19 @@
   width: 300px;
   height: 300px;
   background-color: #ff6666;
+  float: left; /*floatは浮いてしまうイメージで、緑が下に入り込んでしまう*/
 }
 
 #blue {
   width: 300px;
   height: 300px;
   background-color: #0000ff;
+  float: left;
 }
 
 #green {
   width: 300px;
   height: 300px;
   background-color: #3cb371;
+  clear: both; /*回り込みを防ぐ*/
 }
