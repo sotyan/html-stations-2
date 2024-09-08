@@ -1,0 +1,4 @@
+#animation{
+    animation: fadeIn 1s ease forwards;
+    color: red;
+}
